@@ -3,7 +3,7 @@
 
 @include b(tabs) {
   @include e(header) {
-    padding: 0;
+    padding: 0 2px 0 0;
     position: relative;
     margin: 0 0 15px;
   }
@@ -178,6 +178,7 @@
     > .el-tabs__header .el-tabs__item {
       border-bottom: 1px solid transparent;
       border-left: 1px solid $--border-color-light;
+      border-top: 1px solid $--border-color-light;
       transition: color .3s cubic-bezier(.645,.045,.355,1), padding .3s cubic-bezier(.645,.045,.355,1);
       &:first-child {
         border-left: none;
@@ -215,7 +216,8 @@
       padding: 15px;
     }
     > .el-tabs__header {
-      background-color: $--background-color-base;
+      padding-top: 2px;
+      background-color: $--tab-vertical-header-count-color;
       border-bottom: 1px solid $--border-color-light;
       margin: 0;
     }
@@ -225,8 +227,8 @@
     > .el-tabs__header .el-tabs__item {
       transition: all .3s cubic-bezier(.645,.045,.355,1);
       border: 1px solid transparent;
-      margin-top: -1px;
-      color: $--color-text-secondary;
+      //margin-top: -1px;
+      color: $--color-text-regular;
 
       &:first-child {
         margin-left: -1px;
@@ -239,8 +241,10 @@
       &.is-active {
         color: $--color-primary;
         background-color: $--color-white;
+        border-top-color: $--border-color-base;
         border-right-color: $--border-color-base;
         border-left-color: $--border-color-base;
+        border-radius: 8px 8px 0 0;
       }
       &:not(.is-disabled):hover {
         color: $--color-primary;

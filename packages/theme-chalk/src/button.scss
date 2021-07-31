@@ -30,8 +30,8 @@
   &:hover,
   &:focus {
     color: $--color-primary;
-    border-color: $--color-primary-light-7;
-    background-color: $--color-primary-light-9;
+    border-color: $--color-primary-light-2;
+    background-color: $--color-primary-light-2;
   }
 
   &:active {
@@ -115,7 +115,7 @@
   }
   @include when(round) {
     border-radius: 20px;
-    padding: 12px 23px;
+    padding: 6px 20px;
   }
   @include when(circle) {
     border-radius: 50%;

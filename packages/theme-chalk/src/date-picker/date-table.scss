@@ -78,6 +78,10 @@
 
     &.available:hover {
       color: $--datepicker-hover-font-color;
+      
+      span {
+        background-color: $--datepicker-cell-hover-color;
+      }
     }
 
     &.in-range div {

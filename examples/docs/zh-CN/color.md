@@ -20,18 +20,18 @@
     'borderExtraLight': '$--border-color-extra-light'
   };
   const original = {
-    primary: '#409EFF',
-    success: '#67C23A',
-    warning: '#E6A23C',
-    danger: '#F56C6C',
+    primary: '#2A76E6',
+    success: '#36B37E',
+    warning: '#FFAB00',
+    danger: '#FF5630',
     info: '#909399',
     white: '#FFFFFF',
     black: '#000000',
-    textPrimary: '#303133',
-    textRegular: '#606266',
-    textSecondary: '#909399',
-    textPlaceholder: '#C0C4CC',
-    borderBase: '#DCDFE6',
+    textPrimary: '#1D1D1F',
+    textRegular: '#515154',
+    textSecondary: '#86868b',
+    textPlaceholder: '#AEBACC',
+    borderBase: '#DDE9FB',
     borderLight: '#E4E7ED',
     borderLighter: '#EBEEF5',
     borderExtraLight: '#F2F6FC'
@@ -101,7 +101,7 @@ Element 主要品牌颜色是鲜艳、友好的蓝色。
 <el-row :gutter="12">
   <el-col :span="10" :xs="{span: 12}">
     <div class="demo-color-box" :style="{ background: primary }">Brand Color
-      <div class="value">#409EFF</div>
+      <div class="value">#2A76E6 </div>
       <div class="bg-color-sub" :style="{ background: tintColor(primary, 0.9) }">
         <div
           class="bg-blue-sub-item"
@@ -122,7 +122,7 @@ Element 主要品牌颜色是鲜艳、友好的蓝色。
   <el-col :span="6" :xs="{span: 12}">
     <div class="demo-color-box"
     :style="{ background: success }"
-    >Success<div class="value">#67C23A</div>
+    >Success<div class="value">#36B37E</div>
       <div 
         class="bg-color-sub"
       >
@@ -139,7 +139,7 @@ Element 主要品牌颜色是鲜艳、友好的蓝色。
   <el-col :span="6" :xs="{span: 12}">
     <div class="demo-color-box"
     :style="{ background: warning }"
-    >Warning<div class="value">#E6A23C</div>
+    >Warning<div class="value">#FFAB00</div>
       <div 
           class="bg-color-sub"
         >
@@ -156,7 +156,7 @@ Element 主要品牌颜色是鲜艳、友好的蓝色。
   <el-col :span="6" :xs="{span: 12}">
     <div class="demo-color-box"
     :style="{ background: danger }"
-    >Danger<div class="value">#F56C6C</div>
+    >Danger<div class="value">#FF5630</div>
       <div 
           class="bg-color-sub"
         >

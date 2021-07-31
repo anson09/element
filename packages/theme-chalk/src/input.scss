@@ -50,7 +50,7 @@
     .el-textarea__inner {
       background-color: $--input-disabled-fill;
       border-color: $--input-disabled-border;
-      color: $--input-disabled-color;
+      color: $--font-color-disabled-base;
       cursor: not-allowed;
 
       &::placeholder {

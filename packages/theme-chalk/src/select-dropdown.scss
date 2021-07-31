@@ -10,7 +10,7 @@
   background-color: $--select-dropdown-background;
   box-shadow: $--select-dropdown-shadow;
   box-sizing: border-box;
-  margin: 5px 0;
+  //margin: 5px 0;
 
   @include when(multiple) {
     & .el-select-dropdown__item {
