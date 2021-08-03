@@ -2,7 +2,7 @@
 @import "common/var";
 
 @include b(popper) {
-  .popper__arrow,
+  //.popper__arrow,
   .popper__arrow::after {
     position: absolute;
     display: block;

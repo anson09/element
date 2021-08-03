@@ -68,7 +68,7 @@
     cursor: pointer;
     line-height: 44px;
     font-size: 12px;
-    color: $--color-text-secondary;
+    color: $--color-text-regular;
   }
   @include e(nav-next) {
     right: 0;
@@ -101,7 +101,7 @@
     list-style: none;
     font-size: 14px;
     font-weight: 500;
-    color: $--color-text-primary;
+    color: $--color-text-regular;
     position: relative;
 
     &:focus, &:focus:active {

@@ -72,7 +72,7 @@
       }
       &.start-date span,
       &.end-date span {
-        color: $--color-white;
+        color: $--bg-final;
       }
     }
 
@@ -92,12 +92,12 @@
     }
 
     &.current:not(.disabled) span {
-      color: $--color-white;
+      color: $--bg-final;
       background-color: $--datepicker-active-color;
     }
     &.start-date div,
     &.end-date div {
-      color: $--color-white;
+      color: $--bg-final;
     }
 
     &.start-date span,
@@ -136,7 +136,7 @@
 
     &.selected span {
       background-color: $--datepicker-active-color;
-      color: $--color-white;
+      color: $--bg-final;
       border-radius: 15px;
     }
 

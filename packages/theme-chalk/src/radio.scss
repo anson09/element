@@ -14,17 +14,20 @@
   outline: none;
   font-size: $--font-size-base;
   margin-right: 30px;
+  
   @include utils-user-select(none);
 
   @include when(bordered) {
     padding: $--radio-bordered-padding;
-    border-radius: $--border-radius-base;
+    border-radius: $--border-radius-hemicycle;
     border: $--border-base;
     box-sizing: border-box;
     height: $--radio-bordered-height;
+    background-color: $--bg-header;
 
     &.is-checked {
-      border-color: $--color-primary;
+      border-color: $--primary-color-6;
+      background-color: $--primary-color-1;
     }
 
     &.is-disabled {
@@ -40,7 +43,7 @@
   @include m(medium) {
     &.is-bordered {
       padding: $--radio-bordered-medium-padding;
-      border-radius: $--button-medium-border-radius;
+      border-radius: $--border-radius-hemicycle;
       height: $--radio-bordered-medium-height;
       .el-radio__label {
         font-size: $--button-medium-font-size;
@@ -54,7 +57,7 @@
   @include m(small) {
     &.is-bordered {
       padding: $--radio-bordered-small-padding;
-      border-radius: $--button-small-border-radius;
+      border-radius: $--border-radius-hemicycle;
       height: $--radio-bordered-small-height;
       .el-radio__label {
         font-size: $--button-small-font-size;
@@ -68,7 +71,7 @@
   @include m(mini) {
     &.is-bordered {
       padding: $--radio-bordered-mini-padding;
-      border-radius: $--button-mini-border-radius;
+      border-radius: $--border-radius-hemicycle;
       height: $--radio-bordered-mini-height;
       .el-radio__label {
         font-size: $--button-mini-font-size;
@@ -194,6 +197,6 @@
 
   @include e(label) {
     font-size: $--radio-font-size;
-    padding-left: 10px;
+    padding-left: 8px;
   }
 }

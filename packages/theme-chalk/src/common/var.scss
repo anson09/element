@@ -3,7 +3,9 @@
 // Special comment for theme configurator
 // type|skipAutoTranslation|Category|Order
 // skipAutoTranslation 1
- @import "./rq-light.scss";
+@import "./rq-light.scss";
+@import "./design-tokens.scss";
+//@import "./rq-dark.scss";
 /* Transition
 -------------------------- */
 $--all-transition: all .3s cubic-bezier(.645,.045,.355,1) !default;
@@ -67,7 +69,7 @@ $--border-color-extra-light: $--border-primary !default;
 
 // Background
 /// color|1|Background Color|4
-$--background-color-base: $--bg-final !default;
+$--background-color-base: $--table-secondary !default;
 
 /* Link
 -------------------------- */
@@ -81,7 +83,7 @@ $--border-style-base: solid !default;
 $--border-color-hover: $--primary-color-6 !default;
 $--border-base: $--border-width-base $--border-style-base $--border-color-base !default;
 /// borderRadius|1|Radius|0
-$--border-radius-base: 4px !default;
+$--border-radius-base: $--border-radius-default !default;
 /// borderRadius|1|Radius|0
 $--border-radius-small: 2px !default;
 /// borderRadius|1|Radius|0
@@ -251,9 +253,9 @@ $--radio-checked-icon-color: $--color-primary !default;
 
 $--radio-input-border-color-hover: $--color-primary !default;
 
-$--radio-bordered-height: 30px !default;
-$--radio-bordered-padding: 6px 20px 0 10px !default;
-$--radio-bordered-medium-padding: 5px 20px 0 10px !default;
+$--radio-bordered-height: $--spacing-large !default;
+$--radio-bordered-padding: 7px 16px 7px 16px !default;
+$--radio-bordered-medium-padding: 6px 16px 6px 16px !default;
 $--radio-bordered-small-padding: 4px 15px 0 10px !default;
 $--radio-bordered-mini-padding: 1px 15px 0 10px !default;
 $--radio-bordered-medium-input-height: 14px !default;
@@ -264,7 +266,7 @@ $--radio-bordered-small-input-width: 12px !default;
 $--radio-bordered-small-height: 24px !default;
 $--radio-bordered-mini-input-height: 12px !default;
 $--radio-bordered-mini-input-width: 12px !default;
-$--radio-bordered-mini-height: 20px !default;
+$--radio-bordered-mini-height: $--spacing-primary !default;
 
 /// fontSize||Font|1
 $--radio-button-font-size: $--font-size-base !default;
@@ -435,7 +437,7 @@ $--input-border-color: $--border-color-base !default;
 $--input-border-radius: $--border-radius-base !default;
 $--input-border-color-hover: $--border-color-hover !default;
 /// color||Color|0
-$--input-background-color: $--color-white !default;
+$--input-background-color: $--bg-final  !default;
 $--input-fill-disabled: $--disabled-fill-base !default;
 $--input-color-disabled: $--font-color-disabled-base !default;
 /// color||Color|0
@@ -785,7 +787,7 @@ $--menu-item-font-size: $--font-size-base !default;
 $--menu-item-font-color: $--color-text-primary !default;
 /// color||Color|0
 $--menu-background-color: $--color-white !default;
-$--menu-item-hover-fill: $--color-primary-light-9 !default;
+$--menu-item-hover-fill: $--color-primary-light-1 !default;
 
 /* Rate
 --------------------------*/

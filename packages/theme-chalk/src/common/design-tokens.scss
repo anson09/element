@@ -1,0 +1,39 @@
+/**
+* RQ-Design-tokens
+*
+* @descrition ....
+* @author RQ-UED
+* @version 0.0.1
+* @detetime 29.07.2020
+*
+*/
+
+//border-radius//
+$--border-radius-circle: 50%;//半圆圆角半径
+$--border-radius-hemicycle:20px;//半圆半径
+$--border-radius-large: 8px;//特殊圆角半径
+$--border-radius-default: 4px;//主要圆角半径
+$--border-radius-medium: 2px;//辅助圆角半径
+
+//spacing//
+$--spacing-large: 30px;//按钮内边距
+$--spacing-default: 24px;//组件间距，按钮内边距
+$--spacing-primary:20px;//侧边栏菜单上下间距
+$--spacing-medium: 16px;//字体间距，卡片标头内间距
+$--spacing-normal: 10px;//表头文字
+$--spacing-none: 8px;//卡片间距，组件内边距
+$--spacing-small: 6px;//
+$--spacing-mini: 4px;//表头字体与排序间距
+
+//size//
+$--size-large: 910px;//navmenu-1920分辨率高度
+$--size-default: 894px;//左边功能内容区域展示高度
+$--size-medium: 380px;//按钮高度、输入框高度、列表高度
+$--siez-none: 240px;//
+$--size-small: 140px;//输入框宽度
+$--size-mini: 100px;//输入框宽度
+
+//shadows//
+$--shadows-default: 0px 2px 4px 0px;//全局背景阴影
+$--shadows-medium: 2px 0px 4px;//侧边栏背景阴影
+$--shadows-small: 0px 0px 10px 0px;//tabs选中背景阴影
