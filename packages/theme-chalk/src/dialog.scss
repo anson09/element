@@ -47,12 +47,26 @@
     font-size: $--message-close-size;
 
     .el-dialog__close {
+      position:relative;
       color: $--color-info;
+      background-color: $--bg-primary;
+      width: 24px;
+      height: 24px;
+      &::before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
     }
 
     &:focus, &:hover {
       .el-dialog__close {
         color: $--color-primary;
+        border-radius: 4px;
+        background-color: $--color-primary-light-1;
+        width: 24px;
+        height: 24px;
       }
     }
   }

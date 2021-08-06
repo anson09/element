@@ -22,8 +22,13 @@
     line-height: normal;
     height: $--checkbox-bordered-height;
 
+    &:hover{
+      border-color: $--primary-color-4;
+    }
+
     &.is-checked {
-      border-color: $--color-primary;
+      border-color: $--primary-color-6;
+      background-color: $--primary-color-1;
     }
 
     &.is-disabled {
@@ -44,7 +49,6 @@
         line-height: 20px;
         font-size: $--button-medium-font-size;
       }
-
       .el-checkbox__inner {
         height: $--checkbox-bordered-medium-input-height;
         width: $--checkbox-bordered-medium-input-width;

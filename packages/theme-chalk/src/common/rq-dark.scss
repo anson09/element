@@ -19,9 +19,14 @@ $--error-color-6: hsla(0, 94%, 66%, 0.6); //图标按钮点击色
 $--error-color-8: hsla(0, 94%, 66%, 0.8); //图标按钮悬浮色
 
 //succeed-color//
-$--succeed-color: hsla(146, 48%, 49%, 1); //成功提醒色
-$--succeed-color-1: hsla(146, 48%, 49%, 0.1); //绿色按钮悬浮色
-$--succeed-color-2: hsla(146, 48%, 49%, 0.2); //绿色按钮点击色
+$--succeed-color: hsla(155, 54%, 46%, 1); //成功提醒色
+$--succeed-color-1: hsla(155, 54%, 46%, 0.1); //绿色按钮悬浮色
+$--succeed-color-2: hsla(155, 54%, 46%, 0.2); //绿色按钮点击色
+
+//excel-color//
+$--excel-color: hsla(146, 48%, 49%, 1); //成功提醒色
+$--excel-color-1: hsla(146, 48%, 49%, 0.1); //绿色按钮悬浮色
+$--excel-color-2: hsla(146, 48%, 49%, 0.2); //绿色按钮点击色
 
 //text-color//
 $--text-title: hsla(215, 22%, 89%, 1); //标题字体色值
@@ -66,8 +71,9 @@ $--table-minor: hsla(230, 17%, 14%, 1); //表格三级背景
 
 //normal-color//
 $--white: hsla(0, 0%, 100%, 1);
-$--grey: hsla(213, 14%, 56%, 1);
+$--grey: hsla(220, 4%, 58%,1);
 $--red: hsla(0, 94%, 66%, 1);
-$--green: hsla(146, 48%, 49%, 1);
-$--orange: hsla(30, 89%, 57%, 1);
+$--green: hsla(155, 54%, 46%, 1); 
+$--orange: hsla(40, 100%, 50%,1);
+$--purple:hsla(249, 46%, 54%,1);
 $--opacity: hsla(0, 0%, 0%, 0);

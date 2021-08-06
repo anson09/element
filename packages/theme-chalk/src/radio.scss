@@ -25,10 +25,15 @@
     height: $--radio-bordered-height;
     background-color: $--bg-header;
 
+    &:hover {
+      border-color: $--primary-color-4;
+    }
+
     &.is-checked {
       border-color: $--primary-color-6;
       background-color: $--primary-color-1;
     }
+
 
     &.is-disabled {
       cursor: not-allowed;

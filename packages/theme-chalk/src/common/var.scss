@@ -108,25 +108,25 @@ $--fill-base: $--color-white !default;
 $--font-path: 'fonts' !default;
 $--font-display: 'auto' !default;
 /// fontSize|1|Font Size|0
-$--font-size-extra-large: 20px !default;
+$--font-size-extra-large: $--spacing-primary !default;
 /// fontSize|1|Font Size|0
 $--font-size-large: 18px !default;
 /// fontSize|1|Font Size|0
-$--font-size-medium: 16px !default;
+$--font-size-medium: $--spacing-medium !default;
 /// fontSize|1|Font Size|0
-$--font-size-base: 14px !default;
+$--font-size-base: $--font-normal !default;
 /// fontSize|1|Font Size|0
 $--font-size-small: 13px !default;
 /// fontSize|1|Font Size|0
-$--font-size-extra-small: 12px !default;
+$--font-size-extra-small: $--font-secondary !default;
 /// fontWeight|1|Font Weight|1
 $--font-weight-primary: 500 !default;
 /// fontWeight|1|Font Weight|1
 $--font-weight-secondary: 100 !default;
 /// fontLineHeight|1|Line Height|2
-$--font-line-height-primary: 24px !default;
+$--font-line-height-primary:  $--spacing-default!default;
 /// fontLineHeight|1|Line Height|2
-$--font-line-height-secondary: 16px !default;
+$--font-line-height-secondary: $--spacing-medium !default;
 $--font-color-disabled-base: $--disable-text!default;
 /* Size
 -------------------------- */
@@ -152,7 +152,7 @@ $--icon-color-base: $--color-primary-light-6 !default;
 /* Checkbox
 -------------------------- */
 /// fontSize||Font|1
-$--checkbox-font-size: 14px !default;
+$--checkbox-font-size: $--font-normal !default;
 /// fontWeight||Font|1
 $--checkbox-font-weight: $--font-weight-primary !default;
 /// color||Color|0
@@ -183,7 +183,7 @@ $--checkbox-checked-icon-color: $--fill-base !default;
 
 $--checkbox-input-border-color-hover: $--color-primary !default;
 /// height||Other|4
-$--checkbox-bordered-height: 30px !default;
+$--checkbox-bordered-height: $--spacing-large !default;
 /// padding||Spacing|3
 $--checkbox-bordered-padding: 4px 20px 4px 10px !default;
 /// padding||Spacing|3
@@ -199,11 +199,11 @@ $--checkbox-bordered-medium-height: 28px !default;
 $--checkbox-bordered-small-input-height: 12px !default;
 $--checkbox-bordered-small-input-width: 12px !default;
 /// height||Other|4
-$--checkbox-bordered-small-height: 24px !default;
+$--checkbox-bordered-small-height: $--spacing-default !default;
 $--checkbox-bordered-mini-input-height: 12px !default;
 $--checkbox-bordered-mini-input-width: 12px !default;
 /// height||Other|4
-$--checkbox-bordered-mini-height: 20px !default;
+$--checkbox-bordered-mini-height: $--spacing-primary !default;
 
 /// color||Color|0
 $--checkbox-button-checked-background-color: $--color-primary !default;
@@ -263,7 +263,7 @@ $--radio-bordered-medium-input-width: 14px !default;
 $--radio-bordered-medium-height: 28px !default;
 $--radio-bordered-small-input-height: 12px !default;
 $--radio-bordered-small-input-width: 12px !default;
-$--radio-bordered-small-height: 24px !default;
+$--radio-bordered-small-height: $--spacing-default !default;
 $--radio-bordered-mini-input-height: 12px !default;
 $--radio-bordered-mini-input-width: 12px !default;
 $--radio-bordered-mini-height: $--spacing-primary !default;
@@ -291,7 +291,7 @@ $--select-multiple-input-color: $--text-normal !default;
 /// color||Color|0
 $--select-input-focus-border-color: $--color-primary !default;
 /// fontSize||Font|1
-$--select-input-font-size: 14px !default;
+$--select-input-font-size: $--font-normal !default;
 
 $--select-option-color: $--color-text-regular !default;
 $--select-option-disabled-color: $--color-text-placeholder !default;
@@ -304,8 +304,8 @@ $--select-option-selected-font-color: $--color-primary !default;
 $--select-option-selected-hover: $--background-color-base !default;
 
 $--select-group-color: $--color-info !default;
-$--select-group-height: 30px !default;
-$--select-group-font-size: 12px !default;
+$--select-group-height: $--spacing-large !default;
+$--select-group-font-size: $--font-secondary !default;
 
 $--select-dropdown-background: $--color-white !default;
 $--select-dropdown-shadow: $--box-shadow-light !default;
@@ -324,9 +324,9 @@ $--alert-border-radius: $--border-radius-base !default;
 /// fontSize||Font|1
 $--alert-title-font-size: 13px !default;
 /// fontSize||Font|1
-$--alert-description-font-size: 12px !default;
+$--alert-description-font-size: $--font-secondary !default;
 /// fontSize||Font|1
-$--alert-close-font-size: 12px !default;
+$--alert-close-font-size: $--font-secondary !default;
 /// fontSize||Font|1
 $--alert-close-customed-font-size: 13px !default;
 
@@ -336,7 +336,7 @@ $--alert-warning-color: $--color-warning-lighter !default;
 $--alert-danger-color: $--color-danger-lighter !default;
 
 /// height||Other|4
-$--alert-icon-size: 16px !default;
+$--alert-icon-size: $--spacing-medium !default;
 /// height||Other|4
 $--alert-icon-large-size: 28px !default;
 
@@ -345,16 +345,16 @@ $--alert-icon-large-size: 28px !default;
 /// color||Color|0
 $--messagebox-title-color: $--color-text-primary !default;
 $--msgbox-width: 420px !default;
-$--msgbox-border-radius: 4px !default;
+$--msgbox-border-radius: $--spacing-mini !default;
 /// fontSize||Font|1
-$--messagebox-font-size: $--font-size-large !default;
+$--messagebox-font-size: $--font-size-medium !default;
 /// fontSize||Font|1
 $--messagebox-content-font-size: $--font-size-base !default;
 /// color||Color|0
 $--messagebox-content-color: $--color-text-regular !default;
 /// fontSize||Font|1
-$--messagebox-error-font-size: 12px !default;
-$--msgbox-padding-primary: 15px !default;
+$--messagebox-error-font-size: $--font-secondary !default;
+$--msgbox-padding-primary: 20px !default;
 /// color||Color|0
 $--messagebox-success-color: $--color-success !default;
 /// color||Color|0
@@ -373,7 +373,7 @@ $--message-padding: 15px 15px 15px 20px !default;
 /// color||Color|0
 $--message-close-icon-color: $--color-text-placeholder !default;
 /// height||Other|4
-$--message-close-size: 16px !default;
+$--message-close-size: $--spacing-medium !default;
 /// color||Color|0
 $--message-close-hover-color: $--color-text-secondary !default;
 
@@ -391,20 +391,20 @@ $--message-danger-font-color: $--color-danger !default;
 $--notification-width: 330px !default;
 /// padding||Spacing|3
 $--notification-padding: 14px 26px 14px 13px !default;
-$--notification-radius: 8px !default;
+$--notification-radius: $--spacing-none !default;
 $--notification-shadow: $--box-shadow-light !default;
 /// color||Color|0
 $--notification-border-color: $--border-color-lighter !default;
-$--notification-icon-size: 24px !default;
+$--notification-icon-size: $--spacing-default !default;
 $--notification-close-font-size: $--message-close-size !default;
 $--notification-group-margin-left: 13px !default;
-$--notification-group-margin-right: 8px !default;
+$--notification-group-margin-right: $--spacing-none !default;
 /// fontSize||Font|1
 $--notification-content-font-size: $--font-size-base !default;
 /// color||Color|0
 $--notification-content-color: $--color-text-regular !default;
 /// fontSize||Font|1
-$--notification-title-font-size: 16px !default;
+$--notification-title-font-size: $--spacing-medium !default;
 /// color||Color|0
 $--notification-title-color: $--color-text-primary !default;
 
@@ -430,14 +430,14 @@ $--input-font-color: $--color-text-regular !default;
 /// height||Other|4
 $--input-width: 140px !default;
 /// height||Other|4
-$--input-height: 30px !default;
+$--input-height: $--spacing-large !default;
 $--input-border: $--border-base !default;
 $--input-border-color: $--border-color-base !default;
 /// borderRadius||Border|2
 $--input-border-radius: $--border-radius-base !default;
 $--input-border-color-hover: $--border-color-hover !default;
 /// color||Color|0
-$--input-background-color: $--bg-final  !default;
+$--input-background-color: $--bg-primary  !default;
 $--input-fill-disabled: $--disabled-fill-base !default;
 $--input-color-disabled: $--font-color-disabled-base !default;
 /// color||Color|0
@@ -458,15 +458,15 @@ $--input-disabled-color: $--disabled-color-base !default;
 $--input-disabled-placeholder-color: $--color-text-placeholder !default;
 
 /// fontSize||Font|1
-$--input-medium-font-size: 14px !default;
+$--input-medium-font-size: $--font-normal !default;
 /// height||Other|4
 $--input-medium-height: 36px !default;
 /// fontSize||Font|1
 $--input-small-font-size: 13px !default;
 /// height||Other|4
-$--input-small-height: 32px !default;
+$--input-small-height: $--spacing-large !default;
 /// fontSize||Font|1
-$--input-mini-font-size: 12px !default;
+$--input-mini-font-size: $--font-secondary !default;
 /// height||Other|4
 $--input-mini-height: 28px !default;
 
@@ -519,7 +519,7 @@ $--button-border-radius: $--border-radius-base !default;
 /// padding||Spacing|3
 $--button-padding-vertical: 7px !default;
 /// padding||Spacing|3
-$--button-padding-horizontal: 20px !default;
+$--button-padding-horizontal: $--spacing-primary !default;
 
 /// fontSize||Font|1
 $--button-medium-font-size: $--font-size-base !default;
@@ -528,17 +528,17 @@ $--button-medium-border-radius: $--border-radius-base !default;
 /// padding||Spacing|3
 $--button-medium-padding-vertical: 10px !default;
 /// padding||Spacing|3
-$--button-medium-padding-horizontal: 20px !default;
+$--button-medium-padding-horizontal: $--spacing-primary !default;
 
 /// fontSize||Font|1
-$--button-small-font-size: 12px !default;
+$--button-small-font-size: $--font-secondary !default;
 $--button-small-border-radius: #{$--border-radius-base - 1} !default;
 /// padding||Spacing|3
 $--button-small-padding-vertical: 9px !default;
 /// padding||Spacing|3
 $--button-small-padding-horizontal: 15px !default;
 /// fontSize||Font|1
-$--button-mini-font-size: 12px !default;
+$--button-mini-font-size: $--font-secondary !default;
 $--button-mini-border-radius: #{$--border-radius-base - 1} !default;
 /// padding||Spacing|3
 $--button-mini-padding-vertical: 7px !default;
@@ -610,22 +610,22 @@ $--switch-core-border-radius: 10px !default;
 // height||Other|4 TODO: width 代码写死的40px 所以下面这三个属性都没意义
 $--switch-width: 40px !default;
 // height||Other|4
-$--switch-height: 20px !default;
+$--switch-height: $--spacing-primary !default;
 // height||Other|4
-$--switch-button-size: 16px !default;
+$--switch-button-size: $--spacing-medium !default;
 
 /* Dialog
 -------------------------- */
 $--dialog-background-color: $--color-white !default;
 $--dialog-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !default;
 /// fontSize||Font|1
-$--dialog-title-font-size: $--font-size-large !default;
+$--dialog-title-font-size: $--font-size-medium !default;
 /// fontSize||Font|1
-$--dialog-content-font-size: 14px !default;
+$--dialog-content-font-size: $--font-normal !default;
 /// fontLineHeight||LineHeight|2
 $--dialog-font-line-height: $--font-line-height-primary !default;
 /// padding||Spacing|3
-$--dialog-padding-primary: 20px !default;
+$--dialog-padding-primary: $--spacing-primary !default;
 
 /* Table
 -------------------------- */
@@ -685,7 +685,7 @@ $--popover-arrow-size: 6px !default;
 $--popover-padding: 12px !default;
 $--popover-padding-large: 18px 20px !default;
 /// fontSize||Font|1
-$--popover-title-font-size: 16px !default;
+$--popover-title-font-size: $--spacing-medium !default;
 /// color||Color|0
 $--popover-title-font-color: $--color-text-primary !default;
 
@@ -696,7 +696,7 @@ $--tooltip-fill: $--bg-tip !default;
 /// color|1|Color|0
 $--tooltip-color: $--color-white !default;
 /// fontSize||Font|1
-$--tooltip-font-size: 12px !default;
+$--tooltip-font-size: $--font-secondary !default;
 /// color||Color|0
 $--tooltip-border-color: $--color-text-primary !default;
 $--tooltip-arrow-size: 6px !default;
@@ -716,7 +716,7 @@ $--tag-warning-color: $--color-warning !default;
 /// color||Color|0
 $--tag-danger-color: $--color-danger !default;
 /// fontSize||Font|1
-$--tag-font-size: 12px !default;
+$--tag-font-size: $--font-secondary !default;
 $--tag-border-radius: 4px !default;
 $--tag-padding: 0 10px !default;
 
@@ -741,7 +741,7 @@ $--dropdown-menuItem-hover-color: $--link-color !default;
 $--badge-background-color: $--color-danger !default;
 $--badge-radius: 10px !default;
 /// fontSize||Font|1
-$--badge-font-size: 12px !default;
+$--badge-font-size: $--font-secondary !default;
 /// padding||Spacing|3
 $--badge-padding: 6px !default;
 /// height||Other|4
@@ -753,7 +753,7 @@ $--badge-size: 18px !default;
 $--card-border-color: $--border-color-lighter !default;
 $--card-border-radius: 4px !default;
 /// padding||Spacing|3
-$--card-padding: 20px !default;
+$--card-padding: $--spacing-primary !default;
 
 /* Slider
 --------------------------*/
@@ -769,7 +769,7 @@ $--slider-border-radius: 3px !default;
 /// height|1|Other|4
 $--slider-height: 6px !default;
 /// height||Other|4
-$--slider-button-size: 16px !default;
+$--slider-button-size: $--spacing-medium !default;
 $--slider-button-wrapper-size: 36px !default;
 $--slider-button-wrapper-offset: -15px !default;
 
@@ -777,7 +777,7 @@ $--slider-button-wrapper-offset: -15px !default;
 --------------------------*/
 $--steps-border-color: $--disabled-border-base !default;
 $--steps-border-radius: 4px !default;
-$--steps-padding: 20px !default;
+$--steps-padding: $--spacing-primary !default;
 
 /* Menu
 --------------------------*/
@@ -791,7 +791,7 @@ $--menu-item-hover-fill: $--color-primary-light-1 !default;
 
 /* Rate
 --------------------------*/
-$--rate-height: 20px !default;
+$--rate-height: $--spacing-primary !default;
 /// fontSize||Font|1
 $--rate-font-size: $--font-size-base !default;
 /// height||Other|3
@@ -835,12 +835,12 @@ $--scrollbar-hover-background-color: rgba($--color-text-secondary, .5) !default;
 /* Carousel
 --------------------------*/
 /// fontSize||Font|1
-$--carousel-arrow-font-size: 12px !default;
+$--carousel-arrow-font-size: $--font-secondary !default;
 $--carousel-arrow-size: 36px !default;
 $--carousel-arrow-background: rgba(31, 45, 61, 0.11) !default;
 $--carousel-arrow-hover-background: rgba(31, 45, 61, 0.23) !default;
 /// width||Other|4
-$--carousel-indicator-width: 30px !default;
+$--carousel-indicator-width: $--spacing-large !default;
 /// height||Other|4
 $--carousel-indicator-height: 2px !default;
 $--carousel-indicator-padding-horizontal: 4px !default;
@@ -881,9 +881,9 @@ $--transfer-panel-footer-height: 40px !default;
 /// height||Other|4
 $--transfer-panel-body-height: 246px !default;
 /// height||Other|4
-$--transfer-item-height: 30px !default;
+$--transfer-item-height: $--spacing-large !default;
 /// height||Other|4
-$--transfer-filter-height: 32px !default;
+$--transfer-filter-height: 30px !default;
 
 /* Header
   --------------------------*/
@@ -895,7 +895,7 @@ $--footer-padding: 0 20px !default;
 
 /* Main
 --------------------------*/
-$--main-padding: 20px !default;
+$--main-padding: $--spacing-primary !default;
 
 /* Timeline
 --------------------------*/
@@ -954,7 +954,7 @@ $--avatar-font-color: $--white !default;
 /// color||Color|0
 $--avatar-background-color: #C0C4CC !default;
 /// fontSize||Font Size|1
-$--avatar-text-font-size: 14px !default;
+$--avatar-text-font-size: $--font-normal !default;
 /// fontSize||Font Size|1
 $--avatar-icon-font-size: 18px !default;
 /// borderRadius||Border|2
@@ -969,13 +969,13 @@ $--avatar-small-size: 28px !default;
 -------------------------- */
 $--empty-padding: 40px 0 !default;
 $--empty-image-width: 160px !default;
-$--empty-description-margin-top: 20px !default;
-$--empty-bottom-margin-top: 20px !default;
+$--empty-description-margin-top: $--spacing-primary !default;
+$--empty-bottom-margin-top: $--spacing-primary !default;
 
 /* Descriptions
 -------------------------- */
-$--descriptions-header-margin-bottom: 20px !default;
-$--descriptions-title-font-size: 16px !default;
+$--descriptions-header-margin-bottom: $--spacing-primary !default;
+$--descriptions-title-font-size: $--spacing-medium !default;
 $--descriptions-table-border: 1px solid $--border-color-lighter !default;
 $--descriptions-item-bordered-label-background: #fafafa !default;
 
@@ -992,10 +992,10 @@ $--svg-monochrome-grey: #DCDDE0 !default;
 -------------------------- */
 $--result-padding: 40px 30px !default;
 $--result-icon-font-size: 64px !default;
-$--result-title-font-size: 20px !default;
-$--result-title-margin-top: 20px !default;
+$--result-title-font-size: $--spacing-primary !default;
+$--result-title-margin-top: $--spacing-primary !default;
 $--result-subtitle-margin-top: 10px !default;
-$--result-extra-margin-top: 30px !default;
+$--result-extra-margin-top: $--spacing-large !default;
 $--result-info-color: $--color-info !default;
 $--result-success-color: $--color-success !default;
 $--result-warning-color: $--color-warning !default;

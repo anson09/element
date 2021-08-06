@@ -3,7 +3,7 @@
 @include b(time-panel) {
   margin: 5px 0;
   border: solid 1px $--datepicker-border-color;
-  background-color: $--bg-final;
+  background-color: $--bg-primary;
   box-shadow: $--box-shadow-light;
   border-radius: 2px;
   position: absolute;
