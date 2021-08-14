@@ -13,7 +13,7 @@
   white-space: nowrap;
   outline: none;
   font-size: $--font-size-base;
-  margin-right: 30px;
+  margin-right: 24px;
   
   @include utils-user-select(none);
 
@@ -24,9 +24,13 @@
     box-sizing: border-box;
     height: $--radio-bordered-height;
     background-color: $--bg-header;
+    
 
     &:hover {
       border-color: $--primary-color-4;
+      .el-radio__inner {
+        border-color: $--primary-color-4;
+      }
     }
 
     &.is-checked {

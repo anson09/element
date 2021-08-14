@@ -101,7 +101,7 @@ $--box-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, 0.1) !default;
 
 /* Fill
 -------------------------- */
-$--fill-base: $--color-white !default;
+$--fill-base: $--bg-primary !default;
 
 /* Typography
 -------------------------- */
@@ -162,7 +162,7 @@ $--checkbox-input-width: 14px !default;
 /// borderRadius||Border|2
 $--checkbox-border-radius: $--border-radius-small !default;
 /// color||Color|0
-$--checkbox-background-color: $--color-white !default;
+$--checkbox-background-color: $--bg-primary !default;
 $--checkbox-input-border: $--border-base !default;
 
 /// color||Color|0
@@ -208,7 +208,7 @@ $--checkbox-bordered-mini-height: $--spacing-primary !default;
 /// color||Color|0
 $--checkbox-button-checked-background-color: $--color-primary !default;
 /// color||Color|0
-$--checkbox-button-checked-font-color: $--color-white !default;
+$--checkbox-button-checked-font-color: $--bg-primary !default;
 /// color||Color|0
 $--checkbox-button-checked-border-color: $--color-primary !default;
 
@@ -227,12 +227,12 @@ $--radio-input-width: 14px !default;
 /// borderRadius||Border|2
 $--radio-input-border-radius: $--border-radius-circle !default;
 /// color||Color|0
-$--radio-input-background-color: $--color-white !default;
+$--radio-input-background-color: $--bg-primary !default;
 $--radio-input-border: $--border-base !default;
 /// color||Color|0
 $--radio-input-border-color: $--border-color-base !default;
 /// color||Color|0
-$--radio-icon-color: $--color-white !default;
+$--radio-icon-color: $--bg-primary !default;
 
 $--radio-disabled-input-border-color: $--disabled-border-base !default;
 $--radio-disabled-input-fill: $--disabled-fill-base !default;
@@ -247,7 +247,7 @@ $--radio-checked-font-color: $--color-primary !default;
 /// color||Color|0
 $--radio-checked-input-border-color: $--color-primary !default;
 /// color||Color|0
-$--radio-checked-input-background-color: $--color-white !default;
+$--radio-checked-input-background-color: $--bg-primary !default;
 /// color||Color|0
 $--radio-checked-icon-color: $--color-primary !default;
 
@@ -295,7 +295,7 @@ $--select-input-font-size: $--font-normal !default;
 
 $--select-option-color: $--color-text-regular !default;
 $--select-option-disabled-color: $--color-text-placeholder !default;
-$--select-option-disabled-background: $--color-white !default;
+$--select-option-disabled-background: $--bg-primary !default;
 /// height||Other|4
 $--select-option-height: 34px !default;
 $--select-option-hover-background: $--primary-color-1 !default;
@@ -307,7 +307,7 @@ $--select-group-color: $--color-info !default;
 $--select-group-height: $--spacing-large !default;
 $--select-group-font-size: $--font-secondary !default;
 
-$--select-dropdown-background: $--color-white !default;
+$--select-dropdown-background: $--bg-primary !default;
 $--select-dropdown-shadow: $--box-shadow-light !default;
 $--select-dropdown-empty-color: $--text-secondary!default;
 /// height||Other|4
@@ -450,7 +450,7 @@ $--input-hover-border: $--border-color-hover !default;
 $--input-clear-hover-color: $--color-text-secondary !default;
 
 $--input-focus-border: $--color-primary !default;
-$--input-focus-fill: $--color-white !default;
+$--input-focus-fill: $--bg-primary !default;
 
 $--input-disabled-fill: $--disabled-fill-base !default;
 $--input-disabled-border: $--disabled-border-base !default;
@@ -548,14 +548,14 @@ $--button-mini-padding-horizontal: 15px !default;
 /// color||Color|0
 $--button-default-font-color: $--color-text-regular !default;
 /// color||Color|0
-$--button-default-background-color: $--color-white !default;
+$--button-default-background-color: $--bg-primary !default;
 /// color||Color|0
 $--button-default-border-color: $--border-color-base !default;
 
 /// color||Color|0
 $--button-disabled-font-color: $--color-text-placeholder !default;
 /// color||Color|0
-$--button-disabled-background-color: $--color-white !default;
+$--button-disabled-background-color: $--bg-primary !default;
 /// color||Color|0
 $--button-disabled-border-color: $--border-color-lighter !default;
 
@@ -616,7 +616,7 @@ $--switch-button-size: $--spacing-medium !default;
 
 /* Dialog
 -------------------------- */
-$--dialog-background-color: $--color-white !default;
+$--dialog-background-color: $--bg-primary !default;
 $--dialog-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !default;
 /// fontSize||Font|1
 $--dialog-title-font-size: $--font-size-medium !default;
@@ -648,7 +648,7 @@ $--table-fixed-box-shadow: 0 0 10px rgba(0, 0, 0, .12) !default;
 /// fontSize||Font|1
 $--pagination-font-size: 13px !default;
 /// color||Color|0
-$--pagination-background-color: $--color-white !default;
+$--pagination-background-color: $--bg-primary !default;
 /// color||Color|0
 $--pagination-font-color: $--color-text-primary !default;
 $--pagination-border-radius: 3px !default;
@@ -661,7 +661,7 @@ $--pagination-button-height: 28px !default;
 /// color||Color|0
 $--pagination-button-disabled-color: $--color-text-placeholder !default;
 /// color||Color|0
-$--pagination-button-disabled-background-color: $--color-white !default;
+$--pagination-button-disabled-background-color: $--bg-primary !default;
 /// color||Color|0
 $--pagination-hover-color: $--color-primary !default;
 
@@ -675,7 +675,7 @@ $--popup-modal-opacity: 0.5 !default;
 /* Popover
 -------------------------- */
 /// color||Color|0
-$--popover-background-color: $--color-white !default;
+$--popover-background-color: $--bg-primary !default;
 /// fontSize||Font|1
 $--popover-font-size: $--font-size-base !default;
 /// color||Color|0
@@ -694,7 +694,7 @@ $--popover-title-font-color: $--color-text-primary !default;
 /// color|1|Color|0
 $--tooltip-fill: $--bg-tip !default;
 /// color|1|Color|0
-$--tooltip-color: $--color-white !default;
+$--tooltip-color: $--bg-primary !default;
 /// fontSize||Font|1
 $--tooltip-font-size: $--font-secondary !default;
 /// color||Color|0
@@ -732,8 +732,8 @@ $--tree-expand-icon-color: $--color-text-placeholder !default;
 /* Dropdown
 -------------------------- */
 $--dropdown-menu-box-shadow: $--box-shadow-light !default;
-$--dropdown-menuItem-hover-fill: $--color-primary-light-9 !default;
-$--dropdown-menuItem-hover-color: $--link-color !default;
+$--dropdown-menuItem-hover-fill: $--color-primary-light-1 !default;
+$--dropdown-menuItem-hover-color: $--text-normal !default;
 
 /* Badge
 -------------------------- */
@@ -762,7 +762,7 @@ $--slider-main-background-color: $--color-primary !default;
 /// color||Color|0
 $--slider-runway-background-color: $--border-color-light !default;
 $--slider-button-hover-color: mix($--color-primary, black, 97%) !default;
-$--slider-stop-background-color: $--color-white !default;
+$--slider-stop-background-color: $--bg-primary !default;
 $--slider-disable-color: $--color-text-placeholder !default;
 $--slider-margin: 16px 0 !default;
 $--slider-border-radius: 3px !default;
@@ -786,7 +786,7 @@ $--menu-item-font-size: $--font-size-base !default;
 /// color||Color|0
 $--menu-item-font-color: $--color-text-primary !default;
 /// color||Color|0
-$--menu-background-color: $--color-white !default;
+$--menu-background-color: $--bg-primary !default;
 $--menu-item-hover-fill: $--color-primary-light-1 !default;
 
 /* Rate
@@ -829,7 +829,7 @@ $--loading-fullscreen-spinner-size: 50px !default;
 
 /* Scrollbar
 --------------------------*/
-$--scrollbar-background-color: rgba($--color-text-secondary, .3) !default;
+$--scrollbar-background-color: $--bg-minor !default;
 $--scrollbar-hover-background-color: rgba($--color-text-secondary, .5) !default;
 
 /* Carousel
@@ -854,13 +854,13 @@ $--collapse-border-color: $--border-color-lighter !default;
 /// height||Other|4
 $--collapse-header-height: 48px !default;
 /// color||Color|0
-$--collapse-header-background-color: $--color-white !default;
+$--collapse-header-background-color: $--bg-primary !default;
 /// color||Color|0
 $--collapse-header-font-color: $--color-text-primary !default;
 /// fontSize||Font|1
 $--collapse-header-font-size: 13px !default;
 /// color||Color|0
-$--collapse-content-background-color: $--color-white !default;
+$--collapse-content-background-color: $--bg-primary !default;
 /// fontSize||Font|1
 $--collapse-content-font-size: 13px !default;
 /// color||Color|0
@@ -906,7 +906,7 @@ $--timeline-node-color: $--border-color-light !default;
 /* Backtop
 --------------------------*/
 /// color||Color|0
-$--backtop-background-color: $--color-white !default;
+$--backtop-background-color: $--bg-primary !default;
 /// color||Color|0
 $--backtop-font-color: $--color-primary !default;
 /// color||Color|0
