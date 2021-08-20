@@ -3,9 +3,9 @@
 // Special comment for theme configurator
 // type|skipAutoTranslation|Category|Order
 // skipAutoTranslation 1
-@import "./rq-light.scss";
+//@import "./rq-light.scss";
 @import "./design-tokens.scss";
-//@import "./rq-dark.scss";
+@import "./rq-dark.scss";
 /* Transition
 -------------------------- */
 $--all-transition: all .3s cubic-bezier(.645,.045,.355,1) !default;
@@ -273,7 +273,7 @@ $--radio-button-font-size: $--font-size-base !default;
 /// color||Color|0
 $--radio-button-checked-background-color: $--color-primary !default;
 /// color||Color|0
-$--radio-button-checked-font-color: $--color-white !default;
+$--radio-button-checked-font-color: $--color-primary-light-1!default;
 /// color||Color|0
 $--radio-button-checked-border-color: $--color-primary !default;
 $--radio-button-disabled-checked-fill: $--border-color-extra-light !default;
@@ -505,7 +505,7 @@ $--tab-header-color: $--color-text-regular !default;
 $--tab-header-fill-active: rgba($--color-black, 0.06) !default;
 $--tab-header-fill-hover: rgba($--color-black, 0.06) !default;
 $--tab-vertical-header-width: 90px !default;
-$--tab-vertical-header-count-color: $--bg-header !default;
+$--tab-vertical-header-count-color: $--disable-primary !default;
 $--tab-vertical-header-count-fill: $--color-text-secondary !default;
 
 /* Button

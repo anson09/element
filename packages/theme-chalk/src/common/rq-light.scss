@@ -29,12 +29,13 @@ $--excel-color-1: hsla(146, 48%, 49%, 0.1); //绿色按钮悬浮色
 $--excel-color-2: hsla(146, 48%, 49%, 0.2); //绿色按钮点击色
 
 //text-color//
-$--text-title: hsla(240, 3%, 12%,1);//标题字体色值
+$--text-title: hsl(240, 3%, 12%);//标题字体色值
 $--text-normal: hsla(240, 2%, 32%,1); //常规字体色值
 $--text-secondary:hsla(240, 2%, 54%,1); //提醒字体色值
 $--text-placeholder:hsla(216, 23%, 74%,1);//占位符字色
 $--text-btn: hsla(0, 0%, 100%, 1); //按钮字体色值
 $--text-link: hsla(216, 79%, 53%, 1); //文字链接
+$--text-menu: hsla(216, 19%, 66%,1);//菜单颜色
 
 //components-interaction//
 $--components-hover: hsla(220, 62%, 55%, 0.8); //组件悬停状态
