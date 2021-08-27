@@ -220,7 +220,7 @@
     > .el-tabs__header {
       padding-top: 4px;
       background-color: $--tab-vertical-header-count-color;
-      border-bottom: 0px solid $--border-color-light;
+      border-bottom: 2px solid $--bg-primary;
       margin: 0;
     }
     > .el-tabs__header .el-tabs__nav-wrap::after {

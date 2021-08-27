@@ -22,16 +22,19 @@
 
   &::-webkit-scrollbar {
     z-index: 11;
-    width: 6px;
+    width: 10px;
 
     &:horizontal {
-      height: 6px;
+      height: 10px;
     }
 
     &-thumb {
       border-radius: 5px;
       width: 6px;
       background: $--scrollbar-thumb-background;
+      &:hover { 
+        background-color: $--color-text-placeholder;
+      }
     }
 
     &-corner {

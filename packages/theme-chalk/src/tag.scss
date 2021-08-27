@@ -19,9 +19,10 @@
   }
 
   &.el-tag--info {
-    background-color: mix($--tag-info-color, $--color-white, $backgroundColorWeight);
-    border-color: mix($--tag-info-color, $--color-white, $borderColorWeight);
+    background-color: $--bg-minor;
+    border-color:none;
     color: mix($--tag-info-color, $--color-white, $fontColorWeight);
+
 
     @include when(hit) {
       border-color: $--tag-info-color;

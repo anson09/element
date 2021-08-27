@@ -16,7 +16,7 @@
     box-sizing: border-box;
     width: 100%;
     font-size: inherit;
-    color: $--input-font-color;
+    color: $--input-placeholder-color;
     background-color: $--input-background-color;
     background-image: none;
     border: $--input-border;
@@ -33,6 +33,7 @@
 
     &:focus {
       outline: none;
+      color: $--input-font-color;
       border-color: $--input-focus-border;
     }
   }

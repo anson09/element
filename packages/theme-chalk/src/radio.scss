@@ -55,6 +55,7 @@
       border-radius: $--border-radius-hemicycle;
       height: $--radio-bordered-medium-height;
       .el-radio__label {
+        padding: 1px 0px 1px 8px;
         font-size: $--button-medium-font-size;
       }
       .el-radio__inner {
@@ -69,6 +70,7 @@
       border-radius: $--border-radius-hemicycle;
       height: $--radio-bordered-small-height;
       .el-radio__label {
+        padding: 1px 0px 1px 8px;
         font-size: $--button-small-font-size;
       }
       .el-radio__inner {
@@ -83,6 +85,7 @@
       border-radius: $--border-radius-hemicycle;
       height: $--radio-bordered-mini-height;
       .el-radio__label {
+        padding: 1px 0px 1px 8px;
         font-size: $--button-mini-font-size;
       }
       .el-radio__inner {
@@ -117,6 +120,7 @@
         }
 
         & + .el-radio__label {
+          padding: 1px 0px 1px 8px;
           cursor: not-allowed;
         }
       }
@@ -131,6 +135,7 @@
         }
       }
       & + span.el-radio__label {
+        padding: 2px 0px 1px 8px;
         color: $--color-text-placeholder;
         cursor: not-allowed;
       }
@@ -147,6 +152,7 @@
       }
 
       & + .el-radio__label {
+        padding: 1px 0px 1px 8px;
         color: $--radio-checked-font-color;
       }
     }
@@ -173,8 +179,8 @@
     }
 
     &::after {
-      width: 4px;
-      height: 4px;
+      width: 6px;
+      height: 6px;
       border-radius: $--radio-input-border-radius;
       background-color: $--color-white;
       content: "";

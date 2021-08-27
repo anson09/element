@@ -1,8 +1,8 @@
 @import "../common/var";
 @mixin button-plain($color) {
   color: $color;
-  background: mix($--color-white, $color, 90%);
-  border-color: mix($--color-white, $color, 60%);
+  background: mix($--bg-primary, $color, 90%);
+  border-color: mix($--bg-primary, $color, 60%);
 
   &:hover,
   &:focus {
@@ -23,9 +23,9 @@
     &:hover,
     &:focus,
     &:active {
-      color: mix($--color-white, $color, 40%);
-      background-color: mix($--color-white, $color, 90%);
-      border-color: mix($--color-white, $color, 80%);
+      color: mix($--bg-primary, $color, 40%);
+      background-color: mix($--bg-primary, $color, 90%);
+      border-color: mix($--bg-primary, $color, 80%);
     }
   }
 }
@@ -37,8 +37,8 @@
 
   &:hover,
   &:focus {
-    background: mix($--color-white, $background-color, $--button-hover-tint-percent);
-    border-color: mix($--color-white, $border-color, $--button-hover-tint-percent);
+    background: mix($--bg-primary, $background-color, $--button-hover-tint-percent);
+    border-color: mix($--bg-primary, $border-color, $--button-hover-tint-percent);
     color: $color;
   }
   
@@ -61,8 +61,8 @@
     &:focus,
     &:active {
       color: $--color-white;
-      background-color: mix($background-color, $--color-white);
-      border-color: mix($border-color, $--color-white);
+      background-color: mix($background-color, $--bg-primary);
+      border-color: mix($border-color, $--bg-primary);
     }
   }
 
