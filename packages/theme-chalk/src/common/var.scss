@@ -122,7 +122,7 @@ $--font-size-extra-small: $--font-secondary !default;
 /// fontWeight|1|Font Weight|1
 $--font-weight-primary: 500 !default;
 /// fontWeight|1|Font Weight|1
-$--font-weight-secondary: 100 !default;
+$--font-weight-secondary: 400 !default;
 /// fontLineHeight|1|Line Height|2
 $--font-line-height-primary:  $--spacing-default!default;
 /// fontLineHeight|1|Line Height|2
@@ -179,7 +179,7 @@ $--checkbox-checked-font-color: $--color-primary !default;
 $--checkbox-checked-input-border-color: $--color-primary !default;
 /// color||Color|0
 $--checkbox-checked-background-color: $--color-primary !default;
-$--checkbox-checked-icon-color: $--text-title !default;
+$--checkbox-checked-icon-color: $--color-white!default;
 
 $--checkbox-input-border-color-hover: $--color-primary !default;
 /// height||Other|4
@@ -513,7 +513,7 @@ $--tab-vertical-header-count-fill: $--color-text-secondary !default;
 /// fontSize||Font|1
 $--button-font-size: $--font-size-base !default;
 /// fontWeight||Font|1
-$--button-font-weight: $--font-weight-primary !default;
+$--button-font-weight: $--font-line-height-secondary !default;
 /// borderRadius||Border|2
 $--button-border-radius: $--border-radius-base !default;
 /// padding||Spacing|3

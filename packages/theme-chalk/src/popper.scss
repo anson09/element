@@ -43,7 +43,7 @@
   }
 
   &[x-placement^="bottom"] {
-    margin-top: #{$--popover-arrow-size + 6};
+    margin-top: 2px;
   }
 
   &[x-placement^="bottom"] .popper__arrow {
